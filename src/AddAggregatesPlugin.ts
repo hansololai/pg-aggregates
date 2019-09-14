@@ -2,7 +2,7 @@ import { Plugin } from "graphile-build";
 import { PgAttribute, QueryBuilder } from "graphile-build-pg";
 import { GraphQLResolveInfo, GraphQLFieldConfigMap } from "graphql";
 
-const AddAggregatesPlugin: Plugin = builder => {
+const AddAggregatesPlugin: Plugin = (builder) => {
   // Hook all connections to add the 'aggregates' field
   builder.hook("GraphQLObjectType:fields", (fields, build, context) => {
     const {

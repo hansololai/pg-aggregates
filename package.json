@@ -33,11 +33,14 @@
   },
   "homepage": "https://github.com/graphile/pg-aggregates#readme",
   "peerDependencies": {
-    "graphql": ">0.6.0 <15",
     "graphile-build": "^4.3.0",
-    "graphile-build-pg": "^4.3.0"
+    "graphile-build-pg": "^4.3.0",
+    "graphql": ">0.6.0 <15"
   },
   "devDependencies": {
+    "graphile-build": "^4.3.0",
+    "graphile-build-pg": "^4.3.0",
+    "graphql": ">0.6.0 <15",
     "concurrently": "^4.1.0",
     "nodemon": "^1.18.10",
     "postgraphile": "^4.4.0-beta.3",
